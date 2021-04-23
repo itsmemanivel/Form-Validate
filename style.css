@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:Marker Felt, fantasy;
+    background-color: #352035;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}
+header{
+    display: flex;
+   
+    justify-content: space-evenly;
+    padding: 0 ;
+   
+ background-color:  #534B53;
+ 
+ line-height: 60px;
+ width: 100%;
+}
+
+.l1 li {
+    display: inline-block;
+    font-size: 20px;
+    padding:0 20px; 
+    list-style: none;
+}
+.l1{
+    font-size: 10px;
+    
+}
+.l1 li a{
+    
+    text-decoration: none;
+    color: white;
+      transition: all 0.3s ease 0s;
+}
+.l1 li a:hover{
+    border: white 2px solid;
+    background:#352035;
+    padding: 0 10px;
+    color:white;
+}
+.l1 li a.active{
+    border: white 2px solid;
+    background:#352035;
+    
+    padding: 0 10px;
+}
+
+
+
+.flex-container{
+    
+    background-color:#352035;
+    min-height: 380px;
+    display: flex;
+    justify-content: space-between;
+   /*align-items: flex-start;*/
+   text-align: justify;
+   flex-wrap: wrap;
+   align-content: center;
+   
+
+   
+}
+
+.flex-container>div{
+    background: #534B53;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    
+    
+}
+
+
+img.img1{
+    width: 300px;
+    margin: 15px;
+    float: left;
+    padding-top: 30px;
+    height: 280px;
+   
+}
+.img-ipl{
+    margin-top: 30px;
+}
+.img-ipl input.btn1{
+    width:50% ;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 10%;
+    background:#352035;
+    color:white;
+    border:black 2px solid;
+    
+    
+}
+.img-ipl input.btn1:hover{
+    border:white 2px solid;
+    background: #352035;
+    padding: 10px;
+    color:white;
+}
+
+
+.img-ipl .cup{
+    
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.form1{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    
+
+}
+.form1 label{
+    display: block;
+}
+.form1 input{
+    
+    padding-bottom: 20px;
+    width: 90%;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.form1 input.btn{
+width: 90%;
+background:#352035;
+color: white;
+border: 2px solid black;
+}
+.form1 input.btn:hover{
+    border: 2px solid white;
+    background:#352035;
+    color: white;
+}
+
+
+footer{
+    background-color:#534B53;
+    height: 140px;
+    
+   
+    }
+footer.f1 {
+    color: black;
+   
+   }
+.par{
+        padding-top: 50px; 
+    margin-left: 40px;
+    font-family:Marker Felt, fantasy;
+    font-size:40px bold;
+ 
+   }
+footer ul{
+   float: right;
+    padding: 40px;
+   margin-right: 60px;
+    list-style: none;
+    font-family:Marker Felt, fantasy;
+    font-size:40px bold;
+ 
+}
+
+
+nav.ipl{
+    background-color: #534B53;
+text-align: center;
+    line-height: 60px;
+    width: 100%;
+}
+input.btn-ipl{
+    float: left;
+line-height: 30px;
+margin: 10px;
+padding: 0 20px;
+background: #352035;
+color:white;
+border: black 2px solid;
+
+}
+input.btn-ipl:hover{
+    border: white 2px solid;
+    color: white;
+    background: #352035;
+}
+.flex-ipl{
+    
+    display: flex;
+   
+}
+.flex-ipl>div{
+    background: #534B53;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
